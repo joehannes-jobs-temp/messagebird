@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.51",
-    "meteor-node-stubs": "^0.4.1"
+    "meteor-node-stubs": "^0.4.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   },
   "meteor": {
     "mainModule": {
@@ -17,5 +19,19 @@
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^5.2.0",
+    "eslint-config-recommended": "^3.0.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "flow-bin": "^0.77.0",
+    "flow-typed": "^2.5.1"
   }
 }
